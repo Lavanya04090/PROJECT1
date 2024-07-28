@@ -68,7 +68,7 @@ def main():
     load_dotenv()
     initialize_session_state()
     st.title("Chatbot")
-    file_path = "C:\\Users\\KIIT\\Desktop\\web scrapping\\scrapp.docx"  # Updated file path to your .docx document
+    file_path = "# Updated file path to your .docx document"  # Updated file path to your .docx document
 
     if os.path.exists(file_path):
         loader = Docx2txtLoader(file_path)
